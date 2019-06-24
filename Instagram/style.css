@@ -1,0 +1,234 @@
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #fafafa;
+}
+.profile-img#user1-profile-img{
+    border-radius: 1000px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.profile-img#my-profile-img{
+    border-radius: 1000px;
+}
+.struct{
+    background-color: #fafafa;
+}
+#main-logo{
+    position: absolute;
+    left: 270px;
+    top: 20px;
+}
+#main-header{
+    width: 100%;
+    background-color: #ffffff;
+    height: 70px;
+    border-bottom: solid 1px lightgrey;
+}
+#main-search{
+    position: absolute;
+    height: 24px;
+    width: 215px;
+    left: 650px;
+    top: 23px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: #fafafa !important;
+    border: 1px solid #dfdfdf;
+}
+#search-button{
+    position: absolute;
+    left: 718px;
+    top: 26px;
+    height: 23px;
+    width: 23px;
+}
+#search-span{
+    position: absolute;
+    left: 740px;
+    top: 27px;
+    color: #999999;
+    font-family: "Segoe UI Light", serif;
+    font-size: 14px;
+}
+#explore{
+    position: absolute;
+    left: 1113px;
+    top: 26px;
+}
+#activity{
+    position: absolute;
+    left: 1165px;
+    top: 26px;
+}
+#profile{
+    position: absolute;
+    left: 1217px;
+    top: 26px;
+}
+aside.struct{
+    position: absolute;
+    left: 938px;
+    top: 135px;
+}
+#stories{
+    position: relative;
+    width: 293px;
+    height: 222px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: solid 1px lightgrey;
+    top: 10px;
+}
+.profile-login{
+    font-size: 16px;
+    font-weight: 500;
+    color: #262626;
+}
+.profile-login#my-profile-login{
+    position: absolute;
+    left: 65px;
+    top: -5px;
+}
+.profile-login#user1-profile-login{
+    position: absolute;
+    left: 65px;
+    top: -5px;
+}
+.profile-name{
+    font-family: "Segoe UI Light", serif;
+    color: #999999;
+    font-size: 13px;
+}
+.profile-name#my-profile-name{
+    position: absolute;
+    left: 65px;
+    top: 13px;
+}
+.profile-name#user1-profile-name{
+    position: absolute;
+    left: 65px;
+    top: 13px;
+    color: #262626;
+}
+#stories-text{
+    position: absolute;
+    font-family: "Segoe UI Medium", serif;
+    color: #999999;
+    font-size: 14px;
+    top: 12px;
+    left: 17px;
+}
+#stories-select{
+    width: 293px;
+    height: 183px;
+    border: #ffffff;
+    outline: none;
+}
+#stories-header{
+    height: 39px;
+}
+#see-all{
+    font-weight: bold;
+    position: absolute;
+    left: 178px;
+    top: 15px;
+    color: #262626;
+    font-size: 13px;
+}
+#recomendations{
+    position: relative;
+    width: 293px;
+    height: 202px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: solid 1px lightgrey;
+    top: 22px;
+}
+#rec-head{
+    height: 45px;
+}
+#my-rec-text{
+    position: absolute;
+    font-family: "Segoe UI Medium", serif;
+    color: #999999;
+    font-size: 14px;
+    top: 12px;
+    left: 17px;
+}
+#see-all-rec{
+    font-weight: bold;
+    position: absolute;
+    left: 178px;
+    top: 15px;
+    color: #262626;
+    font-size: 13px;
+}
+footer.struct{
+    position: absolute;
+    left: 938px;
+    top: 657px;
+    width: 250px;
+}
+.add-links{
+    font-family: "Segoe UI Regular", serif;
+    font-size: 11px;
+    color: #c7c7c7;
+}
+#lang-sel{
+    position: relative;
+    width: 30px;
+    height: 12px;
+    top: 4px;
+    right: 30px;
+    opacity: 0;
+}
+.post{
+    position: absolute;
+    width: 614px;
+    height: 977px;
+    margin-left: 292px;
+    margin-top: 63px;
+    background-color: #ffffff;
+    border: solid 1px lightgrey;
+}
+.post-image{
+    height: 612px;
+    width: 614px;
+}
+.post-header{
+    width: 614px;
+    height: 60px;
+}
+.post-button{
+    background-color: #ffffff;
+    border: 0px;
+    width: 30px;
+    height: 30px;
+    outline:none;
+}
+#post-footer{
+    position: absolute;
+    height: 43px;
+}
+.post-button#like{
+    position: absolute;
+    left: 10px;
+    margin-top: 10px;
+}
+.post-button#comment{
+    position: absolute;
+    left: 54px;
+    margin-top: 10px;
+}
+.post-button#share{
+    position: absolute;
+    left: 97px;
+    margin-top: 10px;
+}
+.post-button#note{
+    position: absolute;
+    left: 550px;
+    margin-top: 10px;
+}

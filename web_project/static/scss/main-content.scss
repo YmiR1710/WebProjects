@@ -1,0 +1,48 @@
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 100%;
+
+  margin:0;
+  padding:0;
+
+  &__child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15%;
+    height: 250px;
+    border-radius: 10px;
+
+    margin:0;
+    padding:0;
+  }
+
+  &__city {
+    color:white;
+    font-family: "Century Gothic", serif;
+  }
+
+  &__temp {
+    color:white;
+    font-family: "Century Gothic", serif;
+  }
+
+  &__delete-button-wrapper {
+    background-color: red;
+    opacity: 0.15;
+    height: 23px;
+    width: 23px;
+    border-radius: 4px;
+    cursor:pointer;
+    margin: 0;
+    padding: 0;
+  }
+  &__delete-button-wrapper:hover{
+    opacity: 0.8;
+    transition: opacity 1s;
+  }
+
+}
+

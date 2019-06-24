@@ -1,0 +1,13 @@
+    <div>
+        <a href="https://www.instagram.com/ymir228/">
+            <img class="profile-img" id="my-profile-img" width="50" height="50" src="images/me.jpg">
+        </a>
+        <a href="https://www.instagram.com/ymir228/">
+            <h2 class="profile-login" id="my-profile-login">
+                ymir228
+            </h2>
+        </a>
+        <h3 class="profile-name" id="my-profile-name">
+            Віталік Волянський
+        </h3>
+    </div>

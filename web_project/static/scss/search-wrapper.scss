@@ -1,0 +1,53 @@
+.search-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  &__input-city {
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    width: 100px;
+    height:20px;
+
+    padding:0;
+    margin:0;
+  }
+
+  &__input-city {
+    outline: 0;
+    outline-offset: 0;
+  }
+
+  &__input-country {
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    width: 100px;
+    height:20px;
+    padding:0;
+    margin:0;
+  }
+
+  &__input-country:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+  }
+
+  &__button {
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    width: 60px;
+    height:20px;
+    cursor: pointer;
+
+    padding:0;
+    margin:0;
+  }
+
+  &__button:active, :hover, :focus {
+    background-color: aqua;
+  }
+}

@@ -1,0 +1,43 @@
+#add_block{
+    width: 315px;
+}
+#add_users_input{
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    border: none;
+    background-color: aquamarine;
+    border-bottom: 1px solid #ccc;
+    border-radius: 100px;
+}
+#add_users_input,
+#add_users_input:active,
+#add_users_input:focus {
+    outline: none;
+}
+#add_users_input:active,
+#add_users_input:focus {
+    border: 2px solid aquamarine;
+    background: #ffffff !important;
+}
+.submit_button{
+    margin-top: 10px;
+    border: 0;
+    background: springgreen;
+    cursor: pointer;
+    color: #00ad0c;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.submit_button:active,
+.submit_button:hover{
+    outline: none;
+    background-color: aqua;
+}
+.submit_button:focus{
+    outline: none;
+}
+#create{
+    float: right;
+}

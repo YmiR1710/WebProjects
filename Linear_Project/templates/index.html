@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter_analysis</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename = 'images/favicon.ico') }}">
+    <script type = "text/javascript" src = "{{ url_for('static', filename = 'js_files/main.js') }}" ></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+    <style> button{
+        margin: 3px auto 3px -23px;
+        background-color: #00adee;
+        border-radius: 20px;
+        width: 90%;
+        height: 45px;
+        outline: none;
+        border: 0;
+        color: white;
+        font-family: "Segoe UI", fantasy;
+        font-size: 15px;
+        }
+        button:hover{
+        background-color: #1da1f2;
+        }
+        button:active{
+        background-color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <form id="search-block" method="post">
+        <label for="main-search"></label>
+        <input id="main-search" autocomplete="off" type="text" name="table">
+        <input type="submit" id="submit_form" value="+" onclick="return create_table_form('visible')">
+    </form>
+    <div id="add_block">
+        <form id="add_users" method="post">
+            <label for="add_users_input"></label>
+            <input id="add_users_input" autocomplete="off" type="text" name="user">
+            <input type="submit" id="submit_add_users" value="ADD">
+            <input type="submit" id="submit_create_table" value="CREATE TABLE" onclick="return create_table_form('hidden')">
+        </form>
+    </div>
+    <div id="list-block">
+        <ul>
+        {% for i in data %}
+            <li>
+                <button onclick="show_table(); change_color()">
+                    {{i}}
+                </button>
+                <div id={{i}} style="display: none;">
+                    {% if data.get(i) %}
+                    <ul>
+                        {% set count = [1] %}
+                        {% for j in data.get(i) %}
+                        {% set ref = "http://twitter.com/" + j %}
+                        <li class="user" style="font-family: 'Comic Sans MS',serif; color: #00adee; font-size: 20px">
+                            <a href={{ref}} style="text-decoration:none;color: #00adee">
+                            {{count[0]}}. {{j}}
+                            {% if count.append(count.pop() + 1) %}{% endif %}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <div>
+                        <ul>
+                            <li style="font-family: 'Comic Sans MS',serif; color: #00adee; font-size: 20px">
+                                ...Processing...
+                            </li>
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

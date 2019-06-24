@@ -1,0 +1,29 @@
+body{
+    background-color: #ffffff;
+}
+img{
+    width: 300px;
+}
+#img-left{
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+#img-right{
+    position: absolute;
+    top: 30%;
+    right: 3%;
+}
+canvas{
+    position: absolute;
+    left: 40%;
+    top: 3%;
+}
+span {
+    position: absolute;
+    left: 43%;
+    top: 80%;
+    font-size: 50px;
+    color: green;
+    text-shadow:0 0 20px #000000;
+}

@@ -1,0 +1,71 @@
+body{
+    background: #00adee url(../images/twitter.png) 50% 50% no-repeat fixed;
+}
+#search-block{
+    position: fixed;
+    top: 43%;
+    left: 43%;
+}
+#main-search{
+    position: absolute;
+    height: 28px;
+    width: 215px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background: #f5f8fa  !important;
+    border: 1px solid #00adee;
+}
+#main-search,
+#main-search:active,
+#main-search:focus {
+    outline: none;
+}
+#main-search:active,
+#main-search:focus {
+    border: 2px solid #4ab3f4;
+    background: #ffffff;
+}
+#list-block{
+    position: absolute;
+    width: 20%;
+    height: 70%;
+    background: #ffffff;
+    border-radius: 15px;
+    right: 1%;
+    bottom: 1%;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    list-style-type: none;
+}
+#submit_form{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    top: 3px;
+    left: 182.5px;
+    background: #f5f8fa;
+    border: 0;
+    cursor: pointer;
+    color: #35abf3;
+    font-size: 20px;
+}
+#submit_form,
+#submit_form:active,
+#submit_form:focus {
+    outline: none;
+}
+#add_block{
+    position: absolute;
+    top: 50%;
+    left: 43%;
+
+}
+ul{
+    height: 100%;
+    width: 100%;
+}
+#add_users_input{
+    border-radius: 30px;
+}
